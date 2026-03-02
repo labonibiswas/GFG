@@ -1,8 +1,8 @@
 class Solution {
     public static int largest(int[] arr) {
+        int n=arr.length-1;
         // code here
-        int n = arr.length;
         Arrays.sort(arr);
-        return arr[n-1];
+        return arr[n];
     }
 }
